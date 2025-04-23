@@ -18,7 +18,7 @@ const rsmlLightTheme: ThemeDefinition = {
     "surface-light": "#E8F5E9",
     "surface-variant": "#DCE5DC",
     "on-surface-variant": "#404942",
-    primary: "#129F64",
+    primary: "#02a9cd",
     "primary-darken-1": "#006D42",
     secondary: "#679078",
     "secondary-darken-1": "#4E6355",

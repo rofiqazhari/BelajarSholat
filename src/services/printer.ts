@@ -4,7 +4,7 @@ import { axios } from "@/plugins/axios";
 
 import { Printer } from "@/types";
 
-const baseUrl = "https://api.rsmlamongan.com/printer";
+const baseUrl = "https://api.cakdev.my.id/printer";
 // const baseUrl = "http://107.108.0.21:5000";
 
 export const findAll = async (address: string) => {

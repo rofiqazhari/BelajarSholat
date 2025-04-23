@@ -21,16 +21,16 @@ export const routes: Array<RouteRecordRaw> = [
     name: "NotFound",
     meta: {
       protected: false,
-      title: "Halaman Tidak Ditemukan",
+      title: "Academy Belajar Sholat",
     },
-    component: () => import("@/views/NotFoundView.vue"),
+    component: () => import("@/views/HomeView.vue"),
   },
   {
-    path: "/",
+    path: "/login",
     name: "Login",
     meta: {
       protected: false,
-      title: "Klinik Muhammadiyah Mobile",
+      title: "Academy Belajar Sholat",
     },
     component: () => import("@/views/LoginView.vue"),
   },

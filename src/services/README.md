@@ -6,7 +6,7 @@ direktori services digunakan untuk menyimpan berbagai fungsi HTTP Request ke API
 
 ```typescript
 export const login = async (username: string, password: string): Promise<TResponseLogin> => {
-  const url = "https://api.rsmlamongan.com/auth/users/authenticate";
+  const url = "https://api.cakdev.my.id/auth/users/authenticate";
 
   const { data } = await axios.post<RestResource<TResponseLogin>>(url, {
     bearer: "database",
@@ -24,7 +24,7 @@ export const login = async (username: string, password: string): Promise<TRespon
 
 ```javascript
 export const login = async (username, password) => {
-  const url = "https://api.rsmlamongan.com/auth/users/authenticate";
+  const url = "https://api.cakdev.my.id/auth/users/authenticate";
 
   const { data } = await axios.post(url, {
     bearer: "database",

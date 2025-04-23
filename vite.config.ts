@@ -24,9 +24,9 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-  base: "/klinikmumobile/",
+  base: "/belajarsholat/",
   build: {
-    outDir: "klinikMuMobile",
+    outDir: "belajarSholat",
   },
   define: { "process.env": {} },
   resolve: {
@@ -36,6 +36,6 @@ export default defineConfig({
     extensions: [".js", ".json", ".jsx", ".mjs", ".ts", ".tsx", ".vue"],
   },
   server: {
-    port: 3000,
+    port: 9000,
   },
 });

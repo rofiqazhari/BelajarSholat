@@ -49,7 +49,7 @@ async function doLogout() {
 }
 
 function getUserImageUrl(badge: string) {
-  return `https://api.rsmlamongan.com/kepegawaian/api/profile/picture/${badge}.jpg`;
+  return `https://api.cakdev.my.id/kepegawaian/api/profile/picture/${badge}.jpg`;
 }
 
 function formatUserFullname(fullname: string | null) {
@@ -150,20 +150,20 @@ watch(title, () => {
     </v-main>
 
     <!-- Bottom navigation -->
-    <v-bottom-navigation>
+    <v-bottom-navigation color="primary">
       <v-btn value="recent">
         <v-icon>mdi-home</v-icon>
-        <span>Home</span>
-      </v-btn>
-
-      <v-btn value="favorites">
-        <v-icon>mdi-chart-pie</v-icon>
-        <span>Dashboard</span>
+        <span>Baranda</span>
       </v-btn>
 
       <v-btn value="nearby">
-        <v-icon>mdi-account</v-icon>
-        <span>Profil</span>
+        <v-icon>mdi-location-enter</v-icon>
+        <span>Registrasi</span>
+      </v-btn>
+
+      <v-btn value="favorites">
+        <v-icon>mdi-school</v-icon>
+        <span>Academy</span>
       </v-btn>
     </v-bottom-navigation>
 
