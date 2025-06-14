@@ -1,0 +1,1 @@
+import{S as s,z as u}from"./index-awyd5qkD.js";import{k as t}from"./kunjungan-DIpCvDEF.js";const c=s("kunjungan",()=>{const n=u(!0),a=u([]);async function e(){n.value=!1;const o=await t("2025-01-01","2025-01-30");a.value=o.response}return{getKunjungan:e,kunjungans:a,loading:n}});export{c as u};
