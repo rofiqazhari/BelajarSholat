@@ -11,27 +11,27 @@ export const routes: Array<RouteRecordRaw> = [
     name: "Home",
     meta: {
       protected: false,
-      title: "Klinik Muhammadiyah Mobile",
+      title: "Academy Belajar Sholat ",
       hideDrawer: true,
     },
     component: () => import("@/views/HomeView.vue"),
   },
   {
-    path: "/kunjungan",
-    name: "Kunjungan",
+    path: "/academy",
+    name: "Academy",
     meta: {
       protected: false,
-      title: "Klinik Muhammadiyah Mobile",
+      title: "Academy Belajar Sholat ",
       hideDrawer: true,
     },
-    component: () => import("@/views/KunjunganView.vue"),
+    component: () => import("@/views/AcademyView.vue"),
   },
   {
     path: "/dashboard",
     name: "Dashboard",
     meta: {
       protected: false,
-      title: "Klinik Muhammadiyah Mobile",
+      title: "Academy Belajar Sholat ",
       hideDrawer: true,
     },
     component: () => import("@/views/DashboardView.vue"),
@@ -41,7 +41,7 @@ export const routes: Array<RouteRecordRaw> = [
     name: "Profil",
     meta: {
       protected: false,
-      title: "Klinik Muhammadiyah Mobile",
+      title: "Profil",
       hideDrawer: true,
     },
     component: () => import("@/views/ProfilView.vue"),
@@ -51,7 +51,7 @@ export const routes: Array<RouteRecordRaw> = [
     name: "Login",
     meta: {
       protected: false,
-      title: "Klinik Muhammadiyah Mobile",
+      title: "Academy Belajar Sholat ",
       hideDrawer: true,
     },
     component: () => import("@/views/LoginView.vue"),

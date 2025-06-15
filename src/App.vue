@@ -153,22 +153,17 @@ watch(title, () => {
     <v-bottom-navigation>
       <v-btn value="recent" href="/">
         <v-icon>mdi-home</v-icon>
-        <span>Home</span>
+        <span>Beranda</span>
       </v-btn>
 
-      <v-btn value="favorites" href="dashboard">
-        <v-icon>mdi-chart-pie</v-icon>
-        <span>Dashboard</span>
+      <v-btn value="favorites" href="academy">
+        <v-icon>mdi-school</v-icon>
+        <span>Academy</span>
       </v-btn>
 
       <v-btn value="nearby" href="profil">
         <v-icon>mdi-account</v-icon>
         <span>Profil</span>
-      </v-btn>
-
-      <v-btn value="favorites" href="login">
-        <v-icon>mdi-login</v-icon>
-        <span>Login</span>
       </v-btn>
     </v-bottom-navigation>
 

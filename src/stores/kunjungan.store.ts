@@ -4,7 +4,7 @@ import { defineStore } from "pinia";
 
 import type { KunjunganTanggal } from "@/models/KunjunganTanggal";
 
-import { kunjunganService } from "@/services";
+import { pesertaService } from "@/services";
 
 export const useKunjunganStore = defineStore("kunjungan", () => {
   const loading = ref(true);
@@ -13,7 +13,7 @@ export const useKunjunganStore = defineStore("kunjungan", () => {
   async function getKunjungan() {
     loading.value = false;
 
-    const kunjunganTgl = await kunjunganService.kunjunganTanggal("2025-01-01", "2025-01-30");
+    const kunjunganTgl = await pesertaService.kunjunganTanggal(1);
     kunjungans.value = kunjunganTgl.response;
   }
 

@@ -24,9 +24,9 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-  base: "/klinikmumobile/",
+  base: "/belajarsholat/",
   build: {
-    outDir: "klinikMuMobile",
+    outDir: "BelajarSholat",
   },
   define: { "process.env": {} },
   resolve: {
